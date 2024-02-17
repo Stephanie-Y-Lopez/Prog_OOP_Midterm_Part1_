@@ -2,20 +2,26 @@
 [Page1](Training/Page1.md)
 
 #### Q1: What does it mean to create an "instance" of an object?
+To create an "instance" for an object means to initialize its state by its class.
 #### Q2: What does it mean when we say "Create a local variable"?
+It means to declare the variable but only within the chunk of code it was initialized in.
 #### Q3: The static keyword is a modifier, what does this modifier do to the members (fields, constructor, properties, and methods) of a class?
+A static keyword allows access to all instances. Such as if that is from fields, a class, etc! :smile:
 #### Q4: Do you need an instance of an object to call a static method?
+No, you dont because a static method belongs to the class.
 #### Q5: Can you create an instance of a static class?
+No, you cannot because static classes is deemed "sealed" therefore, cannot inherit.
 #### Q6: Can you manually call a static constructor? When is it called?
+No, because it is called automatically before the first instance of the class creation. 
 #### Q7: Did you have to create an instance of MyDatabase to access Data? Why?
+Yes! because data is not a static member of the MyDatabase class. :smiley:
 #### Q8: When you ran your code the line "This list is loading" appeared. Where did that come from and why did it appear when it did?
-
+I believe it may have just been a conditional statement /part of the program. If not, I believe you may have added it into your code as a loading precaution.
 ### Part 2
 [Page2](Training/Page2.md)
 
 #### Q9: What is encapsulation?
 #### Q10: What are the other two, or 3 depending on the source, pillars of object-oriented programming?
-#### Q11: After our refactor of Product, it only has fields that are _blank_ among all the Objects in the database.
 #### Q11: After our refactor of Product, it only has fields that are _blank_ among all the Objects in the database.
 #### Q12: We made our DisplayProductInfo() method `virtual`. What does virtual do?
 #### Q13: Why do you think we made that method virtual ( only wrong answer is a blank answer. Give it a shot. )?
