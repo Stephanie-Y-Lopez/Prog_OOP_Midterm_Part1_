@@ -11,6 +11,6 @@ public class Electronics : Product
 
     public override void DisplayProductInfo()
     {
-        Console.WriteLine($"Clothing Item: {Name},  Price: ${Price}, Brand: {Brand_}");
+        Console.WriteLine($"Electronic: {Name},  Price: ${Price}, Brand: {Brand_}");
     }
 }

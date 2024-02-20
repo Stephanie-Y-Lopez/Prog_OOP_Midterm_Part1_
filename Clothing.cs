@@ -13,6 +13,6 @@ public class Clothing : Product
 
     public override void DisplayProductInfo()
     {
-        Console.WriteLine($"Clothing Item: {Name}, Price: ${Price}, Size: {Size_}, Color: {Color_}");
+        Console.WriteLine($"Clothing: {Name}, Price: ${Price}, Size: {Size_}, Color: {Color_}");
     }
 }
