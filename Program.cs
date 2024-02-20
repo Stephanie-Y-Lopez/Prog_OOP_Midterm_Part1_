@@ -5,7 +5,7 @@ namespace Prog_OOP_Midterm_Part1
 {
     internal class Program
     {
-        // Stephanie Lopez!
+        // Stephanie Lopez!!
         static void Main()
         {
             List<string> dataList = MyDatabase.Data;
