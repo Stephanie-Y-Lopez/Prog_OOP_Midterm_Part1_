@@ -73,7 +73,6 @@ The method used to get the type of an instance of an object I believe is 'GetTyp
 The method we can use to check if one type is another I believe is 'equals()'.
 
 ## Part 6 (Extra credit questions)
-[Page 6](Training/Page6.md)
 
 #### Q22: What were we able to store our child classes in a list of Product?
 We were able to store our child classes in a list of Products thanks to Polymorphism! :smile:
