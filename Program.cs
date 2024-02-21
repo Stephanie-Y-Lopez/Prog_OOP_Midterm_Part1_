@@ -16,6 +16,8 @@ namespace Prog_OOP_Midterm_Part1
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("Page 1 Work ^^");
+            Console.WriteLine(" ");
 
             //Page 2: 
             // Creating a new instance of Groceries!
@@ -52,8 +54,21 @@ namespace Prog_OOP_Midterm_Part1
 
                 product.DisplayProductInfo();
             }
+            Console.WriteLine("Page 2 Work ^^");
+            Console.WriteLine(" ");
 
-            //Page 3:
+            //Page 4:
+            Config.UpdateConnectionString("CramberryFarms", "training", "Admin", "1234");
+            string connectionString = Config.ConnectionString;
+            Database db = Database.ConnectToDatabase(connectionString);
+            List<Product> data = db.Data();
+
+            foreach (Product d in data)
+            {
+                d.DisplayProductInfo();
+            }
+            Console.WriteLine("Page 4 Work ^^");
+            Console.WriteLine(" ");
         }
     }
 }
